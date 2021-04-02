@@ -1,0 +1,32 @@
+.flex-center{
+    display: flex ;
+    justify-content: center ;
+}
+
+.margin-top{
+    margin-top: 2em;
+}
+
+.icon{
+    margin: 20px;
+    color: white;
+}
+.imgSize{
+    height: 40em;
+}
+.imgSizeAling{
+    height:  20em;
+}
+
+.corestxt{
+    color: indianred !important;
+    text-decoration: none;
+}
+
+
+ @media (max-width: 1000px){
+    #orientaçãoMobile{
+        display: flex;
+        flex-direction: column;
+    }
+ }
